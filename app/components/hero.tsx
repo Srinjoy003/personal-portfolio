@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 import { FaLinkedinIn, FaGithub, FaDiscord, FaTwitter } from "react-icons/fa";
+import HeroSVG from "./heroSVG";
 
 function Hero() {
 	return (
@@ -31,7 +30,9 @@ function Hero() {
 					<a href="#">
 						<FaDiscord />
 					</a>
-					<a href="#"><FaTwitter /></a>
+					<a href="#">
+						<FaTwitter />
+					</a>
 				</div>
 
 				<div className="btn-group">
@@ -43,9 +44,7 @@ function Hero() {
 					</a>
 				</div>
 			</div>
-			<div className="home-img">
-				<img src="/images/mainImage.jpeg" alt="" />
-			</div>
+			<HeroSVG />
 		</section>
 	);
 }

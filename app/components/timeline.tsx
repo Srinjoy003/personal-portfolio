@@ -61,6 +61,7 @@ function Timeline() {
 						</p>
 					</div>
 				</div>
+				
 			</div>
 		</section>
 	);
