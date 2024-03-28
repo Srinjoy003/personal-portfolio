@@ -10,7 +10,6 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import { useEffect } from "react";
-import Test from "./components/test";
 
 export default function Home() {
 	// const navbar = document.querySelector('.navbar')
@@ -64,7 +63,6 @@ export default function Home() {
 			<Projects />
 			<Contact />
 			<Footer />
-			<Test />
 		</>
 	);
 }
