@@ -5,7 +5,7 @@ import { Poppins } from "next/font/google";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Timeline from "./components/timeline";
-import Services from "./components/services";
+import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
@@ -59,7 +59,7 @@ export default function Home() {
 			<Header />
 			<Hero />
 			<Timeline />
-			<Services />
+			<Skills />
 			<Projects />
 			<Contact />
 			<Footer />

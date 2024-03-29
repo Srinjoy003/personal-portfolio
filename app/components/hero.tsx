@@ -37,7 +37,7 @@ function Hero() {
 
 				<div className="btn-group">
 					<a href="#" className="btn">
-						Hire
+						Resume
 					</a>
 					<a href="#contact" className="btn">
 						Contact

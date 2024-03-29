@@ -33,8 +33,8 @@ function Header() {
 			<nav className="navbar" ref={navRef}>
 				<a href="#home">Home</a>
 				<a href="#education">Education</a>
-				<a href="#services">Services</a>
-				<a href="#testimonials">Testimonials</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
 				<a href="#contact">Contact</a>
 			</nav>
 		</header>

@@ -2,9 +2,9 @@
 
 import React from "react";
 
-function Services() {
+function Skills() {
 	return (
-		<section className="services" id="services">
+		<section className="services" id="skills">
 			<h2 className="heading">Skills</h2>
 			<div className="services-container">
 				<div className="service-box">
@@ -180,4 +180,4 @@ function Services() {
 	);
 }
 
-export default Services;
+export default Skills;
