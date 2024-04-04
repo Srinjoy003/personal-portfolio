@@ -15,10 +15,8 @@ function Projects() {
 						<h2>Key Ninja</h2>
 
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-							perferendis vero magni nihil nemo ipsam non. Sapiente nisi ab ad
-							praesentium. Vitae quisquam saepe consequuntur dolor modi qui
-							nostrum perferendis!
+							A full stack web app to practise and test typing speed. Built
+							using <span>NextJS</span> and <span>Tailwind</span>.
 						</p>
 
 						<div className="project-link">
@@ -36,10 +34,9 @@ function Projects() {
 						<h2>Chess Eclipse</h2>
 
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-							perferendis vero magni nihil nemo ipsam non. Sapiente nisi ab ad
-							praesentium. Vitae quisquam saepe consequuntur dolor modi qui
-							nostrum perferendis!
+							A multiplayer chess game built using <span>NextJS</span>,{" "}
+							<span>WebSockets</span>, <span>ExpressJS</span> and{" "}
+							<span>Tailwind</span>.
 						</p>
 						<div className="project-link">
 							<a href="https://github.com/Srinjoy003/chess">
@@ -56,10 +53,9 @@ function Projects() {
 						<h2>Blunder Master</h2>
 
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-							perferendis vero magni nihil nemo ipsam non. Sapiente nisi ab ad
-							praesentium. Vitae quisquam saepe consequuntur dolor modi qui
-							nostrum perferendis!
+							A chess engine crafted using algorithms including Minimax,
+							Alpha-Beta Pruning, Iterative Deepening DFS, Quiescence Search and
+							Move ordering. Built using <span>Typescript</span> and integrated into <span>Chess Eclipse</span>.
 						</p>
 						<div className="project-link">
 							<a href="https://github.com/Srinjoy003/BlunderMaster-Chess-Engine">

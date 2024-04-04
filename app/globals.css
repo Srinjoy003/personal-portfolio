@@ -28,6 +28,7 @@ body {
   color: var(--text-color)
 }
 
+
 .header {
   position: fixed;
   top: 0;
@@ -68,10 +69,13 @@ body {
 }
 
 .navbar a:hover,
-.navbar a:active {
+.navbar a:active,
+.navbar a.nav-active {
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
 }
+
+
 
 .menu-icon {
   font-size: 3.6rem;
@@ -152,6 +156,8 @@ span {
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.3s ease-in-out;
 }
+
+
 
 .social-icons a:hover {
   color: var(--text-color);
@@ -526,6 +532,11 @@ span {
   font-size: 1.3rem;
 }
 
+.testimonial-item p span {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
 .project-link a {
 
   display: inline-flex;
@@ -608,13 +619,15 @@ span {
 }
 
 .footer .social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   color: var(--main-color);
   border: 2px solid var(--main-color);
   width: 42px;
   height: 42px;
   line-height: 42px;
-  display: inline-block;
   text-align: center;
   border-radius: 50%;
   margin: 0 10px;
@@ -750,6 +763,8 @@ span {
     margin: 3rem 0;
     color: white;
   }
+
+
 
   .home {
     flex-direction: column-reverse;

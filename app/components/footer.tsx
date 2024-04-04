@@ -1,39 +1,40 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaDiscord, FaTwitter } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
 	return (
 		<footer className="footer">
-			<div className="social">
-				<a href="#">
-					<FaLinkedinIn />
-				</a>
-				<a href="#">
-					<FaGithub />
-				</a>
-				<a href="#">
-					<FaDiscord />
-				</a>
-				<a href="#">
-					<FaTwitter />
-				</a>
-			</div>
+				<div className="social">
+					<a href="#">
+						<FaLinkedinIn />
+					</a>
+					<a href="https://github.com/Srinjoy003">
+						<FaGithub />
+					</a>
+					<a href="#">
+						<FaTwitter />
+					</a>
+					<a href="mailto:srinjoy003@gmail.com">
+						<MdEmail />
+					</a>
+				</div>
 
 			<ul className="list">
 				<li>
-					<a href="#">FAQ</a>
+					<a href="#home">Home</a>
 				</li>
 				<li>
-					<a href="#">Services</a>
+					<a href="#education">Education</a>
 				</li>
 				<li>
-					<a href="#">About Me</a>
+					<a href="#skills">Skills</a>
 				</li>
 				<li>
-					<a href="#">Contact</a>
+					<a href="#projects">Projects</a>
 				</li>
 				<li>
-					<a href="#">Testimonials</a>
+					<a href="#contact">Contact</a>
 				</li>
 			</ul>
 			<p className="copyright">© Srinjoy Sengupta | All Rights Reserved</p>
