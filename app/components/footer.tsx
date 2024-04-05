@@ -6,7 +6,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 				<div className="social">
-					<a href="#">
+					<a href="https://linkedin.com/in/srinjoy-sengupta-b28565302">
 						<FaLinkedinIn />
 					</a>
 					<a href="https://github.com/Srinjoy003">

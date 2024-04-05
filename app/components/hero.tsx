@@ -44,7 +44,7 @@ function Hero() {
 					Institute of Technology.
 				</p>
 				<div className="social-icons">
-					<a href="#">
+					<a href="https://linkedin.com/in/srinjoy-sengupta-b28565302">
 						<FaLinkedinIn />
 					</a>
 					<a href="https://github.com/Srinjoy003">
