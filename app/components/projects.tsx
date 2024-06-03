@@ -42,7 +42,7 @@ function Projects() {
 							<a href="https://github.com/Srinjoy003/chess">
 								<FaGithub />
 							</a>
-							<a>
+							<a href="https://chess-liard-nine.vercel.app/">
 								<FaExternalLinkAlt />
 							</a>
 						</div>
@@ -61,7 +61,7 @@ function Projects() {
 							<a href="https://github.com/Srinjoy003/BlunderMaster-Chess-Engine">
 								<FaGithub />
 							</a>
-							<a>
+							<a href="https://chess-liard-nine.vercel.app/">
 								<FaExternalLinkAlt />
 							</a>
 						</div>
