@@ -7,24 +7,6 @@ import { MdEmail } from "react-icons/md";
 
 function Hero() {
 
-	const handleDownload = () => {
-		// Replace 'your_pdf_file.pdf' with the path to your PDF file
-		const pdfFilePath = '/pdf/resume.pdf';
-	
-		// Create a link element
-		const link = document.createElement('a');
-		link.href = pdfFilePath;
-		link.download = 'resume.pdf'; // Specify the file name
-	
-		// Append the link to the body
-		document.body.appendChild(link);
-	
-		// Trigger the click event of the link to start the download
-		link.click();
-	
-		// Remove the link from the body after the download starts
-		document.body.removeChild(link);
-	  };
 
 	return (
 		<section className="home" id="home">
@@ -59,7 +41,7 @@ function Hero() {
 				</div>
 
 				<div className="btn-group">
-					<a href="" className="btn" onClick={handleDownload}>
+					<a href="https://raw.githubusercontent.com/Srinjoy003/Resume/master/resume.pdf" className="btn" >
 						Resume
 					</a>
 					<a href="#contact" className="btn">
