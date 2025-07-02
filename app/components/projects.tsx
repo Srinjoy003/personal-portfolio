@@ -55,13 +55,35 @@ function Projects() {
 						<p>
 							A chess engine crafted using algorithms including Minimax,
 							Alpha-Beta Pruning, Iterative Deepening DFS, Quiescence Search and
-							Move ordering. Built using <span>Typescript</span> and integrated into <span>Chess Eclipse</span>.
+							Move ordering. Built using <span>Typescript</span> and integrated
+							into <span>Chess Eclipse</span>.
 						</p>
 						<div className="project-link">
 							<a href="https://github.com/Srinjoy003/BlunderMaster-Chess-Engine">
 								<FaGithub />
 							</a>
 							<a href="https://chess-liard-nine.vercel.app/">
+								<FaExternalLinkAlt />
+							</a>
+						</div>
+					</div>
+
+					<div className="testimonial-item">
+						<img src="/images/collaborativeEditor.png" alt=""></img>
+						<h2>Collaborative Code Editor</h2>
+
+						<p>
+							A real-time code editor supporting multiple languages with live
+							collaboration, in-app chat, and code execution. Built using{" "}
+							<span>Next.JS</span>, <span>Socket.io</span>,{" "}
+							<span>Tailwind</span>, <span>Javascript</span> and{" "}
+							<span>Judge0 API</span> for seamless team coding experiences.
+						</p>
+						<div className="project-link">
+							<a href="https://github.com/Srinjoy003/collaborative-code-editor">
+								<FaGithub />
+							</a>
+							<a href="https://collaborative-code-editor-gacnjbk8d-srinjoy003s-projects.vercel.app/">
 								<FaExternalLinkAlt />
 							</a>
 						</div>

@@ -21,9 +21,9 @@ function Hero() {
 					I'm a skilled software developer with expertise in frameworks like
 					React and NextJS as well as server side technologies such as Node.js.
 					I'm highly proficient in python and also experienced in object
-					oriented programming languages like Java and C++. I am currently
-					pursuing my Bachelor's degree in Computer Science at Heritage
-					Institute of Technology.
+					oriented programming languages like C++. I am currently
+					pursuing my Master's degree in Computer Science at International
+					Institute of Information Technology Hyderabad.
 				</p>
 				<div className="social-icons">
 					<a href="https://linkedin.com/in/srinjoy-sengupta-b28565302">

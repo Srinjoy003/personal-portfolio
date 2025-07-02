@@ -24,13 +24,24 @@ function Timeline() {
 					<div className="timeline-dot"></div>
 					<div className="timeline-date">2021</div>
 					<div className="timeline-content">
-						<h3>University</h3>
+						<h3>University (Bachelor&apos;s Degree)</h3>
 						<p>
 							I graduated from Heritage Institute of Technology with B.Tech. in
 							Computer Science and Engineering. My time there was a period of
 							immense growth, both academically and personally. I engaged deeply
 							with my field of study and actively contributed to the university
 							community through various initiatives and projects.
+						</p>
+					</div>
+				</div>
+
+				<div className="timeline-item">
+					<div className="timeline-dot"></div>
+					<div className="timeline-date">2025</div>
+					<div className="timeline-content">
+						<h3>University (Master&apos;s Degree)</h3>
+						<p>
+							Currently pursuing MTech in Computer Science and Information Technology(CSIS) at International Institute of Technology Hyderabad (IIITH)
 						</p>
 					</div>
 				</div>
